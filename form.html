@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- <form id="form" action="" novalidate class="form">
+
+    <h4 class="heading-4">Formularz zgłoszeniowy</h4>
+            <div class="form__group">
+                <input type="text" class="form__input" placeholder="Imię i nazwisko" name="name" data-error-message="Podaj imię i nazwisko" required>
+            </div>
+            <div class="form__group">
+                <input type="email" class="form__input" placeholder="Adres E-mail" name="email" data-error-message="Podaj poprawny adres e-mail" required>
+            </div>
+            <div class="form__group">
+                <input type="text" class="form__input" placeholder="Adres (ulica, nr domu)" name="address" data-error-message="Podaj adres zamieszkania" required>
+            </div>
+
+            <div class="form__group">
+                <input type="text" class="form__input" placeholder="Kod pocztowy (xx-xxx)" name="zip-code" data-error-message="Podaj kod pocztowy w formacie xx-xxx" pattern="[0-9]{2}-[0-9]{3}" required>
+            </div>
+            <div class="form__group">
+                <input type="text" class="form__input" placeholder="Miejscowość" data-error-message="Podaj nazwę name="place" miejscowości" required>
+            </div>
+            <div class="form__group">
+                <input type="tel" class="form__input" placeholder="Numer telefonu" name="phone" data-error-message="Podaj numer telefonu">
+            </div>
+            <div class="form__group">
+                <input type="number" class="form__input" min="1" placeholder="Wiek" name="age" data-error-message="Podaj swój wiek" required>
+            </div>
+            <input type="submit" class="btn" name="submit" value="Wyślij">
+            
+        <div class="form__notification">
+            <ol>
+
+            </ol>
+        </div>
+
+    </form>
+
+ -->
+
+
+
+
+    <section class="section">
+        <div class="column column--1">
+            <div class="veryfication">
+                <div class="veryfication__form">
+                    <form id="form" action="" novalidate class="form">
+                        <div class="u-margin-bottom-medium">
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Full name" name="name" data-error-message="Put your real data." required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="E-mail" name="email" data-error-message="Put correct e-mail address." required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Address (st, no)" name="address" data-error-message="Put your address." required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Zip-code (xx-xxx)" name="zip-code" data-error-message="Put zip-code in form of xx-xxx." pattern="[0-9]{2}-[0-9]{3}" required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="City" data-error-message="Put the city name" name="city" required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="tel" class="form__input" placeholder="Phone number (not required)" name="phone" data-error-message="Put your phone number.">
+                        </div>
+
+                        <div class="form__group">
+                            <input type="number" class="form__input" min="1" max="110" placeholder="Age" name="age" data-error-message="Put your age." required>
+                        </div>
+                        
+
+                        <div class="form__group u-margin-bottom-medium">
+                            <div class="form__radio-group">
+                                <input type="radio" class="form__radio-input" id="female" name="gender" data-error-message="Choose your gender." required>
+                                <label for="female" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    Female
+                                </label>
+                            </div>
+
+                            <div class="form__radio-group">
+                                <input type="radio" class="form__radio-input" id="male" name="gender">
+                                <label for="male" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    Male
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="submit" class="btn" name="submit" value="Send&rarr;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="column column--2">
+            <div class="alert">
+                <ol>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
